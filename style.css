@@ -1,0 +1,180 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+/* Profile Section Styling */
+#profile {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.profile-photo {
+    width: 250px;             
+    height: 250px;            
+    border-radius: 50%;       
+    border: 3px solid #333;  
+    object-fit: cover;      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#profile h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#profile p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Navigation */
+nav {
+    background: #6d9def94;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #040500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 5rem 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Home Section */
+#home {
+    background: #fbd0e789;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#home button {
+    padding: 0.7rem 1.5rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#about {
+    background: #ecf79b95;
+    align-items: center;
+}
+#about h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 2rem;           /* Add top margin for spacing between sections */
+    margin-bottom: 1rem;        /* Add bottom margin for spacing before content */
+    border-bottom: 2px solid #0077b5;  /* Optional: underline the headings */
+    padding-bottom: 0.5rem;
+}
+#about h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 1.5rem;         /* Adds space before each subheading */
+    margin-bottom: 0.5rem;
+}
+#projects {
+    background: #ecaef2;
+    text-align: center;
+    align-items: center;
+}
+#contact {
+    background: #81d49780;
+    text-align: center;
+    align-items: center;
+}
+/* Project Cards */
+.project-card {
+    background: #d4718286;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 700px;
+}
+.project-image {
+    width: 100%;               
+    max-width: 600px;         
+    height: auto;             
+    border-radius: 5px;       
+    margin-top: 1rem;       
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.7rem 1.5rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+.social-links {
+    display: flex;
+    background-color: #e7888880;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    color: #0077b5; /* LinkedIn Blue for LinkedIn */
+}
+
+.social-links i {
+    margin-right: 0.5rem;
+}
